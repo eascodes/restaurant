@@ -6,9 +6,29 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    background-image: url("./assets/hops.png");
+    margin: 0;
+    padding: 0;
+}
+
+#content {
     font-family: 'MyFont';
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 70%;
+    background-color: white;
+    height: 100vh;
 }
 
 img {
-    width: 200px;
+    width: 50%;
+}
+
+#content p {
+    width: 80%;
+    text-align: center;
 }
