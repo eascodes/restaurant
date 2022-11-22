@@ -1,3 +1,6 @@
 import './style.css';
-import './pgload.js';
+import './modules/nav.js';
+import { loadPage } from './modules/pgload.js';
 
+
+loadPage();
