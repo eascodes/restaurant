@@ -18,6 +18,11 @@ export function showMenu() {
     fish.src = "../src/assets/fish.jpg";
     salad.src = "../src/assets/salad.jpg";
 
+    pizza.classList.add("menu");
+    burger.classList.add("menu");
+    fish.classList.add("menu");
+    salad.classList.add("menu");
+
     const pizzaTitle = document.createElement("h3");
     const pizzaText = document.createElement("p");
     const burgerTitle = document.createElement("h3");
