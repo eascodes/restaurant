@@ -21,9 +21,7 @@ function clearPg(e) {
     }
 }
 
- const home = document.querySelector("li:nth-child(1)");
- const menu = document.querySelector("li:nth-child(2)");
- const contact = document.querySelector("li:nth-child(3)");
- menu.addEventListener("click",clearPg);
- home.addEventListener("click", clearPg);
- contact.addEventListener("click",clearPg);
+  const nav = Array.from(document.querySelectorAll(".header ul li"));
+    for (let i=0; i < nav.length; i++) {
+    nav[i].addEventListener("click",clearPg);
+    }
