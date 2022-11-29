@@ -13,6 +13,10 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 #content {
     font-family: 'MyFont';
     display: flex;
@@ -69,6 +73,10 @@ img {
 
 .menu {
     margin-top: 25px;
+}
+
+.menu-title {
+    margin-bottom: 5px;
 }
 
 .contact {

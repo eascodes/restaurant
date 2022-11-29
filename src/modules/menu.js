@@ -9,6 +9,7 @@ export function showMenu() {
 
 
     title.textContent = "FOOD MENU";
+    title.classList.add("menu-title");
     intro.textContent = "Ask about our daily specials & beers on tap"
 
     pizza.src = "../src/assets/pizza.jpg";
