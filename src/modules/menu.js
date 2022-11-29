@@ -1,6 +1,7 @@
 export function showMenu() {
     const content = document.querySelector("#content");
     const title = document.createElement("h1");
+    const menuTitle = document.createElement("h2");
     const intro = document.createElement("p");
     const pizza = document.createElement("img");
     const burger = document.createElement("img");
@@ -8,8 +9,10 @@ export function showMenu() {
     const salad = document.createElement("img");
 
 
-    title.textContent = "FOOD MENU";
+    title.textContent = "STUBBS BREWPUB";
+    menuTitle.textContent = "MENU";
     title.classList.add("menu-title");
+    menuTitle.classList.add("menu-title");
     intro.textContent = "Ask about our daily specials & beers on tap"
 
     pizza.src = "../src/assets/pizza.jpg";
@@ -38,12 +41,13 @@ export function showMenu() {
     burgerText.textContent = "Two quarter-pound patties topped with cheddar, lettuce, tomatoes, pickled onions, & our special brewpub sauce. Served on a toasted harvest bun."
 
     saladTitle.textContent = "Salmon Salad"
-    saladText.textContent = "Fresh, wild-caught, grilled salmon served with a bed greens topped with locally grown veggies & a lemon vinaigrette"
+    saladText.textContent = "Fresh, wild-caught, grilled salmon served with a bed greens topped with locally grown veggies & a lemon vinaigrette."
 
     fishTitle.textContent = "Fish & Chips"
     fishText.textContent = "Beer-battered cod served with hand-cut fries."
 
     content.appendChild(title);
+    content.appendChild(menuTitle);
     content.appendChild(intro);
     content.appendChild(pizza);
     content.appendChild(pizzaTitle);
