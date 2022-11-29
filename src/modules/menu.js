@@ -1,6 +1,4 @@
 export function showMenu() {
-    console.log("Here's the menu");
-
     const content = document.querySelector("#content");
     const title = document.createElement("h1");
     const intro = document.createElement("p");
