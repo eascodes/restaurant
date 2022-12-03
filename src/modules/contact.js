@@ -1,3 +1,5 @@
+import Bar from "../src/assets/bar.jpg";
+
 export function showContact() {
     const content = document.querySelector("#content");
     const title = document.createElement("h1");
@@ -10,7 +12,7 @@ export function showContact() {
     addressText.classList.add("contact");
 
     title.textContent = "STUBBS BREWPUB";
-    logo.src = "../src/assets/bar.jpg";
+    logo.src = Bar;
     addressTitle.textContent = "CONTACT";
     addressText.textContent = "123 Brewpub Lane, Ourtown, PA 12345"
     phone.textContent = "555-654-3211"

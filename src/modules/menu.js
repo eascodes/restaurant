@@ -1,3 +1,8 @@
+import Pizza from "../src/assets/pizza.jpg";
+import Burger from "../src/assets/burger.jpg";
+import Fish from "../src/assets/fish.jpg";
+import Salad from "../src/assets/salad.jpg";
+
 export function showMenu() {
     const content = document.querySelector("#content");
     const title = document.createElement("h1");
@@ -15,10 +20,10 @@ export function showMenu() {
     menuTitle.classList.add("menu-title");
     intro.textContent = "Ask about our daily specials & beers on tap"
 
-    pizza.src = "../src/assets/pizza.jpg";
-    burger.src = "../src/assets/burger.jpg";
-    fish.src = "../src/assets/fish.jpg";
-    salad.src = "../src/assets/salad.jpg";
+    pizza.src = Pizza;
+    burger.src = Burger;
+    fish.src = Fish;
+    salad.src = Salad;
 
     pizza.classList.add("menu");
     burger.classList.add("menu");
