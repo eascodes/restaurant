@@ -1,7 +1,7 @@
-import Pizza from "../src/assets/pizza.jpg";
-import Burger from "../src/assets/burger.jpg";
-import Fish from "../src/assets/fish.jpg";
-import Salad from "../src/assets/salad.jpg";
+import Pizza from "../assets/pizza.jpg";
+import Burger from "../assets/burger.jpg";
+import Fish from "../assets/fish.jpg";
+import Salad from "../assets/salad.jpg";
 
 export function showMenu() {
     const content = document.querySelector("#content");

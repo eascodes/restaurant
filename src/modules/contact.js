@@ -1,4 +1,4 @@
-import Bar from "../src/assets/bar.jpg";
+import Bar from "../assets/bar.jpg";
 
 export function showContact() {
     const content = document.querySelector("#content");
